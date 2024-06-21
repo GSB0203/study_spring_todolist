@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: toDoList
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/todolist?serverTimezone=UTC
+    username: root
+    password: ak2007=2007mu
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
